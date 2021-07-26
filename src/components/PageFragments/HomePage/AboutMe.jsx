@@ -27,7 +27,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Arvy', 'Salazar', 'Sydney', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -41,10 +41,11 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Based in"
+            textH3="Sydney, NSW, Australia"
           />
         </Col>
+        {/* TODO: change something smart */}
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="coffee.png"
@@ -83,8 +84,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Pursued B.Comp Sci in"
+            textH3="Univesity of Wollongong"
             height={60}
             width={60}
           />

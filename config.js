@@ -1,3 +1,8 @@
+/*
+TODO:
+  find out how to remove google analytic tracking id 
+  change all module exports details
+*/
 module.exports = {
   pathPrefix: '',
   siteUrl: 'https://rolwinreevan.com',
