@@ -1,22 +1,23 @@
 /*
 TODO:
-  find out how to remove google analytic tracking id 
+  find out how to remove google analytic tracking id
   change all module exports details
 */
 module.exports = {
-  pathPrefix: '',
+  pathPrefix: '/webfolio',
   siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteTitle: 'Arvy Salazar',
+  siteDescription: 'Webfolio of Arvy Salazar',
+  author: 'Arvy Salazar',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
-    projects: 'projects',
+    blog: 'blog',
     contact: 'contact',
     resume: 'resume',
+    tag: 'tags',
   },
   social: {
     github: 'https://github.com/Xaraox',
