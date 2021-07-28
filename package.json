@@ -1,11 +1,12 @@
 {
-  "name": "rolwinreevan_gatsby_blog",
+  "name": "arvysalazar_webfolio",
   "private": true,
   "description": "the most beautiful gatsby template ever designed using antd",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby build --prefix-paths",
+    "deploy": "gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

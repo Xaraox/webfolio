@@ -36,7 +36,7 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
+            img="place.png"
             height={60}
             alt="location image"
             textH4="Based in"
