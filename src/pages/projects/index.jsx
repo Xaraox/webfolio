@@ -24,8 +24,8 @@ const Projects = () => (
           <h1 className="titleSeparate">In development</h1>
         </div>
         <img
-          src="../construction.png"
-          alt="contact"
+          src="./construction.png"
+          alt="construction"
           className="widthFull contactImgBorder"
         />
         {/*
