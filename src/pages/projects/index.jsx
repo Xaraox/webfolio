@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { Layout, Row, Col } from 'antd';
+import { Layout } from 'antd';
 import Header from '../../components/PageLayout/Header';
 
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import PostCard from '../../components/PostCard';
+// import PostCard from '../../components/PostCard';
 import SEO from '../../components/Seo';
 
-const Blog = ({ data }) => (
+const Projects = () => (
   <Layout className="outerPadding">
     <Layout className="container">
       <Header />
@@ -17,9 +17,19 @@ const Blog = ({ data }) => (
         description="I like blogging about various web technologies and other stuff related to
           javascript and other trends like graphql, prisma etc. This blog expresses my views of various technologies
           and scenarios I have come across in realtime."
-        path="blog"
+        path="projects"
       />
       <SidebarWrapper>
+        <div className="marginTopTitle">
+          <h1 className="titleSeparate">In development</h1>
+        </div>
+        <img
+          src="../construction.png"
+          alt="contact"
+          className="widthFull contactImgBorder"
+        />
+        {/*
+        TODO: Delete this when you dont need it anymore
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Blog</h1>
         </div>
@@ -32,13 +42,13 @@ const Blog = ({ data }) => (
               </Col>
             ))
           }
-        </Row>
+        </Row> */}
       </SidebarWrapper>
     </Layout>
   </Layout>
 );
 
-Blog.propTypes = {
+Projects.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
@@ -74,4 +84,4 @@ export const query = graphql`
   }
 `;
 
-export default Blog;
+export default Projects;

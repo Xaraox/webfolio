@@ -2,11 +2,15 @@
 TODO:
   find out how to remove google analytic tracking id
   change all module exports details
+  These are stuff i removed: (leaving it here just in case i need it again)
+  {
+    siteUrl: 'https://rolwinreevan.com',
+  }
 */
 module.exports = {
   pathPrefix: '/webfolio',
-  siteUrl: 'https://rolwinreevan.com',
   siteTitle: 'Arvy Salazar',
+  siteUrl: 'https://rolwinreevan.com',
   siteDescription: 'Webfolio of Arvy Salazar',
   author: 'Arvy Salazar',
   postsForArchivePage: 3,
@@ -14,7 +18,7 @@ module.exports = {
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
-    blog: 'blog',
+    projects: 'projects',
     contact: 'contact',
     resume: 'resume',
     tag: 'tags',
