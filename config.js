@@ -10,7 +10,7 @@ TODO:
 module.exports = {
   pathPrefix: '/webfolio',
   siteTitle: 'Arvy Salazar',
-  siteUrl: 'https://rolwinreevan.com',
+  siteUrl: 'https://xaraox.github.io',
   siteDescription: 'Webfolio of Arvy Salazar',
   author: 'Arvy Salazar',
   postsForArchivePage: 3,
@@ -30,7 +30,7 @@ module.exports = {
     instagram: 'https://www.instagram.com/reevan100/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/377eb6d4-28a8-4193-bb85-91765fac6dc2',
   // googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   // TODO: find out what to do with this. This field can't be empty
 
