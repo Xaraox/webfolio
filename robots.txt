@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://rolwinreevan.com/webfolio/sitemap/sitemap-index.xml
-Host: https://rolwinreevan.com
+Sitemap: https://xaraox.github.io/webfolio/sitemap/sitemap-index.xml
+Host: https://xaraox.github.io
